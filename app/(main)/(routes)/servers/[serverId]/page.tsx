@@ -43,6 +43,8 @@ const ServerIdPage = async ({ params }: ServerIdPageProps) => {
     return null;
   }
 
+  // return <>hello</>;
+
   return redirect(`/servers/${params.serverId}/channels/${initalChannel?.id}`);
 };
 
